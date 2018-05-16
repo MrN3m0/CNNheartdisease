@@ -32,6 +32,6 @@ for i in wavfiles:
         # display.specshow(mfcc, sr=sr, x_axis='time', **kwargs)
 	#Crea una carpeta llamada imagenes
 	j=i[3:]
-	fig.savefig('imagenes'+i[:-3]+'jpg')
+	fig.savefig('imagenes'+j[:-3]+'jpg')
 	fig.clf()
 	plt.close()
